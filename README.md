@@ -11,5 +11,7 @@ Simple website layout for Horiseon company, which features Semantic HTML element
 ## Usage
 Open the Developer Console in your browser (FN + F12) and view the various elements, this includes for example header, nav and section. You can also test the Navigation links at the top of the webpage, which will direct you to the corresponding image/information for each of them.
 
+Direct URL: https://elitehuskie.github.io/module-01-challenge/
+
 ## License
 Using standard MIT license
