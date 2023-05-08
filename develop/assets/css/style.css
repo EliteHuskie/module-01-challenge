@@ -1,29 +1,30 @@
+/* Selects all elements and applies settings based on below */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Applies background color to body */
 body {
     background-color: #d9dcd6;
 }
-
+/* Header element uses the below settings */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Applies to the Header <h1> element */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Gives the "seo" letters in the <h1> element a different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Navigation element settings */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Navigation <ul> setting */
 .header nav ul {
     list-style-type: none;
 }
-
+/* Navigation <li> settings for display + margin-left */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Anchor elements get a specific color and text-decoration setting */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Paragraphs have a font-size of 16px */
 p {
     font-size: 16px;
 }
-
+/* Main image of webpage settings for height, width, etc. */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Elements will float left on page */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Elements will float right on page */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Content on page will have the below effect for width, display and margin-left */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Aside class using Benefits will have the below effects on page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +86,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Aside section using Benefit-Lead will have the below effects on page */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Aside section using Benefit-Brand will have the below effects on page */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Aside section using Benefit-Cost will have the below effects on page */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Aside using Benefit-Lead with have a particular margin-bottom and text align */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Aside using Benefit-Brand with have a particular margin-bottom and text align */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Aside using Benefit-Cost with have a particular margin-bottom and text align */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Aside using Benefit-Lead image will have the below properties */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Aside using Benefit-Brand image will have the below properties */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Aside using Benefit-Cost image will have the below properties */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Search-Engine-Optimization section will have the below properties */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Online-Reputation-Management section will have the below properties */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +152,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Social-Media-Marketing section will have the below properties */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +161,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Search-Engine-Optimization image will have the below max-height */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* Online-Reputation-Management image will have the below max-height */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* Social-Media-Marketing image will have the below max-height */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Search-Engine-Optimization heading will have the margin-bottom and font-size below */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Online-Reputation-Management heading will have the margin-bottom and font-size below */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Social-Media-Marketing heading will have the margin-bottom and font-size below */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Footer at bottom of page will have the below properties */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Footer at bottom of page will have the below properties for the heading */
 .footer h2 {
     font-size: 20px;
 }
